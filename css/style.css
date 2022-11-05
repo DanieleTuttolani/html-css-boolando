@@ -20,7 +20,7 @@ body{
     border: 2px solid black;
 }
 
-.container-flex{
+.flex{
     display: flex;
 }
 
@@ -35,12 +35,17 @@ header{
 }
 .head .head-left{
     flex-basis: 15%;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
 
 .head-left a{
-    
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
 }
 .head .head-center{
     flex-basis: 70%;
