@@ -7,3 +7,45 @@
 body{
     font-family: sans-serif;
 }
+
+
+
+/*utilità*/
+.container{
+    max-width: 1500px;
+    margin: auto;
+}
+
+.bordo{
+    border: 2px solid black;
+}
+
+.container-flex{
+    display: flex;
+}
+
+/* header*/
+header{
+    background-color: rgb(255, 94, 0);
+    height: 100px;
+}
+
+.head {
+    height: 100%;
+}
+.head .head-left{
+    flex-basis: 15%;
+}
+
+
+
+.head-left a{
+    
+}
+.head .head-center{
+    flex-basis: 70%;
+}
+
+.head .head-right{
+    flex-basis: 15%;
+}
