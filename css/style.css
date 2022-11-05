@@ -77,6 +77,9 @@ main{
     padding-top: 150px;
 }
 
+.row{
+    padding-top: 20px;
+}
 .cards-section{
     min-height: 600px;
     display: flex;
@@ -93,6 +96,27 @@ main{
 }
 
 
+
+
+
+
+
+
+.prezzi p::after{
+    content: "\20AC";
+}
+.prezzi p{
+    display: inline;
+}
+.prezzi p:first-child{
+    color: red;
+}
+.prezzi p:nth-child(2){
+    text-decoration: line-through;
+}
+
+
+
 .discounts .row{
     position: absolute;
     bottom: 140px;
@@ -105,10 +129,15 @@ background-color: red;
 display: inline-block;
 }
 
-.discounts p:last-child{
- 
+.discounts p:nth-child(2){
  background-color:green;
 }
+
+.discounts #echo-scelta{
+    background-color: green;
+}
+
+
 
 .card-info{
     height: 100px;
