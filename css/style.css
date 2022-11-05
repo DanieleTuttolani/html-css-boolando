@@ -77,3 +77,30 @@ main{
     padding-top: 150px;
 }
 
+.row .cards-section{
+    min-height: 800px;
+    display: flex;
+}
+.cards-section .card{
+    flex-basis: 33%;
+    align-content: flex-start;
+    position: relative;
+    z-index: -1;
+}
+.card img{
+    height: 800px;
+}
+
+
+.discounts p{
+position: absolute;
+bottom: 140px;
+color: white;
+padding: 5px;
+background-color: red;
+}
+
+.discounts p:last-child{
+ left: 110px;
+ background-color:green;
+}
