@@ -32,11 +32,9 @@ body{
     left: 0;
     right: 0;
     height: 100px;
-}
-header{
     background-color: rgb(255, 94, 0);
-    height: 100px;
 }
+
 
 .head {
     height: 100%;
@@ -70,3 +68,12 @@ header{
 .head .head-right{
     flex-basis: 15%;
 }
+
+
+
+/*main card section*/
+
+main{
+    padding-top: 150px;
+}
+
