@@ -8,7 +8,9 @@ body{
     font-family: sans-serif;
 }
 
-
+a{
+    text-decoration: none;
+}
 
 /*utilità*/
 .container{
@@ -76,7 +78,6 @@ body{
 main{
     padding-top: 150px;
 }
-
 .row{
     padding-top: 20px;
 }
@@ -90,16 +91,23 @@ main{
     position: relative;
     z-index: -1;
 }
+
 .card img{
     width: 100%;
-    
 }
-
-
-
-
-
-
+.card .favorite{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding: 10px;
+    background-color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+}
+.favorite a{
+    color: red;
+    padding: 5px 10px;
+}
 
 
 .prezzi p::after{
@@ -118,8 +126,8 @@ main{
 
 
 .discounts .row{
-    position: absolute;
-    bottom: 140px;
+position: absolute;
+bottom: 140px;
 }
 
 .discounts p{
@@ -130,15 +138,22 @@ display: inline-block;
 }
 
 .discounts p:nth-child(2){
- background-color:green;
+background-color:green;
 }
 
 .discounts #echo-scelta{
-    background-color: green;
+background-color: green;
 }
 
-
-
-.card-info{
-    height: 100px;
+/*HOVER*/
+.hover-img img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    z-index: 1;
+}
+.hover-img:hover img{
+    display: inline-block;
+    cursor: pointer;
 }
