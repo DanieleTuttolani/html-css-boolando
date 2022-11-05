@@ -25,6 +25,14 @@ body{
 }
 
 /* header*/
+
+.display-fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+}
 header{
     background-color: rgb(255, 94, 0);
     height: 100px;
@@ -33,23 +41,31 @@ header{
 .head {
     height: 100%;
 }
+
+
 .head .head-left{
     flex-basis: 15%;
     justify-content: space-between;
     align-items: center;
 }
-
-
-
 .head-left a{
     text-decoration: none;
     color: white;
     font-weight: bolder;
     font-size: 18px;
 }
+
+
 .head .head-center{
     flex-basis: 70%;
+    justify-content: center;
+    align-items: center;
 }
+.head-center img{
+    width: 200px;
+}
+
+
 
 .head .head-right{
     flex-basis: 15%;
