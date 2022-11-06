@@ -18,10 +18,6 @@ a{
     margin: auto;
 }
 
-.bordo{
-    border: 2px solid black;
-}
-
 .flex{
     display: flex;
 }
