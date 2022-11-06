@@ -146,14 +146,14 @@ background-color: green;
 }
 
 /*HOVER*/
-.hover-img img{
+.alt-pic{
     position: absolute;
     top: 0;
     left: 0;
-    visibility: hidden;
-    z-index: 1;
+    opacity: 0;
 }
-.hover-img:hover img{
-    display: inline-block;
-    cursor: pointer;
+
+.overlay .alt-pic:hover{
+    opacity: 1;
+
 }
